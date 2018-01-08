@@ -33,7 +33,7 @@ export class AppModule {
     apollo: Apollo,
     httpLink: HttpLink
   ) {
-    let headers = new HttpHeaders({'Authorization': 'bearer 7ea19344226c0115c3db4ab17f832cc8fe032638'});
+    let headers = new HttpHeaders({'Authorization': 'bearer ***oauth_token***'});
 
     apollo.create({
       // By default, this client will send queries to the
